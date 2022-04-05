@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/konva@8.3.2/konva.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Konva Rect Demo</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f0f0f0;
+      }
+
+      #container {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <label for="algorithms">Choose algorithm:</label>
+    <select name="algorithms" id="algorithms">
+      <option value="closest">Closest Vertice</option>
+      <option value="farthest">Farthest Insertion</option>
+    </select>
+    <button id="run-button">Run</button>
+    <button id="clear">Clear</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
